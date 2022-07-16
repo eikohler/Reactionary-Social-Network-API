@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(require('./routes'));
 
-mongoose.connect('mongodb://localhost:27017/reactions-network', {
+mongoose.connect('mongodb://localhost:27017/reaction-network', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
